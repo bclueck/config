@@ -1,7 +1,7 @@
 package beanconfig;
 
 import java.util.List;
-import java.time.Duration;
+import org.joda.time.Duration;
 
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigMemorySize;

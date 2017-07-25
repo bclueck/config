@@ -21,7 +21,7 @@ fork in run in Test := true
 autoScalaLibrary := false
 crossPaths := false
 
-libraryDependencies += "net.liftweb" %% "lift-json" % "2.5" % "test"
+libraryDependencies += "joda-time" %% "joda-time" % "2.3" 
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
 
 externalResolvers += "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/"

@@ -3,7 +3,7 @@
  */
 package com.typesafe.config;
 
-import java.time.Duration;
+import org.joda.time.Duration;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -756,7 +756,7 @@ public interface Config extends ConfigMergeable {
     long getDuration(String path, TimeUnit unit);
 
     /**
-     * Gets a value as a java.time.Duration. If the value is
+     * Gets a value as a org.joda.time.Duration. If the value is
      * already a number, then it's taken as milliseconds; if it's
      * a string, it's parsed understanding units suffixes like
      * "10m" or "5ns" as documented in the <a

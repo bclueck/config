@@ -6,7 +6,7 @@ package com.typesafe.config.impl
 import com.typesafe.config._
 
 import java.io.{ InputStream, InputStreamReader }
-import java.time.Duration;
+import org.joda.time.Duration;
 
 import beanconfig._
 import org.junit.Assert._

@@ -14,7 +14,7 @@ import scala.collection.mutable
 import equiv03.SomethingInEquiv03
 import java.io.StringReader
 import java.net.URL
-import java.time.Duration
+import org.joda.time.Duration
 
 class PublicApiTest extends TestUtils {
     @Test

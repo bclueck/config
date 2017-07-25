@@ -22,7 +22,7 @@ public class ConfigBeanFactory {
      *
      * The Java class should follow JavaBean conventions. Field types
      * can be any of the types you can normally get from a {@link
-     * Config}, including <code>java.time.Duration</code> or {@link
+     * Config}, including <code>org.joda.time.Duration</code> or {@link
      * ConfigMemorySize}. Fields may also be another JavaBean-style
      * class.
      *

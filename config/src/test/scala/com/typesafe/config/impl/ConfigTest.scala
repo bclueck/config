@@ -769,7 +769,7 @@ class ConfigTest extends TestUtils {
             conf.getNanosecondsList("durations.secondsList").asScala)
         assertEquals(500L, conf.getMilliseconds("durations.halfSecond"))
 
-        // get durations as java.time.Duration
+        // get durations as org.joda.time.Duration
         assertEquals(1000L, conf.getDuration("durations.second").toMillis)
         assertEquals(asNanos(1), conf.getDuration("durations.second").toNanos)
         assertEquals(1000L, conf.getDuration("durations.secondAsNumber").toMillis)

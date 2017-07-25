@@ -6,7 +6,7 @@ package com.typesafe.config.impl;
 import java.io.File;
 import java.lang.ref.WeakReference;
 import java.net.URL;
-import java.time.Duration;
+import org.joda.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

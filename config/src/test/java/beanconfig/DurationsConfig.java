@@ -1,6 +1,6 @@
 package beanconfig;
 
-import java.time.Duration;
+import org.joda.time.Duration;
 
 public class DurationsConfig {
     Duration second;
